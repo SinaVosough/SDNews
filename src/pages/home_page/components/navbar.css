@@ -1,0 +1,51 @@
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    background-color: #080a38;
+    height: 7vh;
+    /*flex-direction: row;*/
+
+}
+
+.nav-link{
+    font-size: 20px;
+    color: aliceblue;
+    font-style: italic;
+    font-weight: bold;
+    transition: all .2s ease-in-out; 
+
+}
+
+.nav-link:hover {
+    transform: scale(1.2);
+    color: aliceblue;
+
+}
+
+
+
+.navbar-nav{
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+}
+
+@media only screen and (max-width:1200px){
+    form{
+        margin-right: 0;
+        background-color: black;
+    }
+    ul{
+        margin-right: 50px;
+    }
+}
+
+.rtl{
+    direction: rtl;
+}
+
+.ltr{
+    direction: ltr;
+}
+
+

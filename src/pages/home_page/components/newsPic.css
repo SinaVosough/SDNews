@@ -1,0 +1,34 @@
+
+.main{
+    margin-top: 5px;
+    background-color: #0A2647;
+}
+
+.sport{
+    margin-top: 5px;
+    background-color: #144272;
+}
+
+.economic{
+    margin-top: 5px;
+    background-color: #205295;
+}
+
+.political{
+    margin-top: 5px;
+    background-color: #2C74B3;
+}
+
+.art{
+    margin-top: 5px;
+    background-color: #1c385d;
+}
+
+.technology{
+    margin-top: 5px;
+    background-color: #2b65b1;
+}
+
+h1{
+    font-weight: bold;
+}
