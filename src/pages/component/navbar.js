@@ -1,11 +1,11 @@
-import "./navbar.css";
+import "./css/navbar.css";
 
 function Navbar() {
     return (
         <nav className="navbar navbar-expand-lg rtl shadow-sm">
             <ul className="d-flex navbar-nav">
                 <li className="nav-item nav-title">
-                    <img src={"./images/logoipsum-247.svg"} alt="svg logo" />
+                    <img src={"./images/logoipsum-247.svg"} alt="svg logo"/>
                 </li>
                 <li className="nav-item nav-title">
                     <a href="" className="nav-link">
@@ -43,11 +43,11 @@ function Navbar() {
              </div>
          </div>
         </form> */}
-            <div class="search">
-                <input type="text" placeholder="search" />
-                <div class="symbol">
-                    <svg class="cloud" src={"./images/logoipsum-247.svg"}></svg>
-                    <svg class="lens"></svg>
+            <div className="search">
+                <input type="text" placeholder="search"/>
+                <div className="symbol">
+                    <svg className="cloud" src={"./images/logoipsum-247.svg"}></svg>
+                    <svg className="lens"></svg>
                 </div>
             </div>
         </nav>

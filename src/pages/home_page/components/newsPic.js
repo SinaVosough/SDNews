@@ -1,6 +1,7 @@
-import './newsPic.css'
+import './css/newsPic.css'
 
-function Pic(){
+
+function NewsPic(){
     return(
         <section className="py-3">
             <div className="container-fluid main">
@@ -174,4 +175,4 @@ function Pic(){
     )
 }
 
-export default Pic;
+export default NewsPic;
