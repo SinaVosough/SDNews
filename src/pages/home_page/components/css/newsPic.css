@@ -1,34 +1,49 @@
 
-.main{
-    margin-top: 5px;
-    background-color: #0A2647;
+.allcontainer {
+    border-radius: 15px;
+    margin: 15px 25px;
 }
 
-.sport{
+.card {
+    border-radius: 10px;
+}
+
+.custom-card{
+    height: ;
+
+}
+
+.main {
+    background-color: #0A2647;
+
+}
+
+.sport {
     margin-top: 5px;
     background-color: #144272;
 }
 
-.economic{
+.economic {
     margin-top: 5px;
-    background-color: #cbd9ea;
+    background-color: #90abd9;
 }
 
-.political{
+.political {
     margin-top: 5px;
     background-color: #2C74B3;
 }
 
-.art{
+.art {
     margin-top: 5px;
     background-color: #1c385d;
 }
 
-.technology{
+.technology {
     margin-top: 5px;
     background-color: #2b65b1;
 }
 
-h1{
+h1 {
     font-weight: bold;
+    font-style: italic;
 }

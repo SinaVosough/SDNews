@@ -20,7 +20,6 @@ root.render(
     <Router>
         <React.StrictMode>
             <Navbar/>
-            <Slider/>
             <Routes>
                 <Route exact path="/" element={<HomePage/>}/>
                 {/* <Route exact path="/login" element={<Login />} />
