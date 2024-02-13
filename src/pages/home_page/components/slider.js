@@ -26,17 +26,139 @@ function Slider() {
                 className="mySwiper"
             >
                 <SwiperSlide>
-                    <img src=""/>
+                    <div className="card mt-5">
+                        {/*<a className="stretched-link"*/}
+                        {/*   href={news.url}>*/}
+                        {/*</a>*/}
+                        <img
+                            src='https://placehold.co/600x400'
+                            alt="card_image"
+                            className="card-img-top"
+                        />
+                        <div className="card-body">
+                            <div className="card-title">
+                                <h3 className="text-secondary text-center">title</h3>
+                            </div>
+                            <div className="card-subtitle my-4">
+                                <p className="text-muted text-center">
+                                    description
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div className="card mt-5">
+                        {/*<a className="stretched-link"*/}
+                        {/*   href={news.url}>*/}
+                        {/*</a>*/}
+                        <img
+                            src='https://placehold.co/600x400'
+                            alt="card_image"
+                            className="card-img-top"
+                        />
+                        <div className="card-body">
+                            <div className="card-title">
+                                <h3 className="text-secondary text-center">title</h3>
+                            </div>
+                            <div className="card-subtitle my-4">
+                                <p className="text-muted text-center">
+                                    description
+                                </p>
+                            </div>
+                        </div>
+                    </div>
                 </SwiperSlide>
                 <SwiperSlide>
-                    <img src=""/>
+                    <div className="card mt-5">
+                        {/*<a className="stretched-link"*/}
+                        {/*   href={news.url}>*/}
+                        {/*</a>*/}
+                        <img
+                            src='https://placehold.co/600x400'
+                            alt="card_image"
+                            className="card-img-top"
+                        />
+                        <div className="card-body">
+                            <div className="card-title">
+                                <h3 className="text-secondary text-center">title</h3>
+                            </div>
+                            <div className="card-subtitle my-4">
+                                <p className="text-muted text-center">
+                                    descriptionhfhfhfhf
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div className="card mt-5">
+                        {/*<a className="stretched-link"*/}
+                        {/*   href={news.url}>*/}
+                        {/*</a>*/}
+                        <img
+                            src='https://placehold.co/600x400'
+                            alt="card_image"
+                            className="card-img-top"
+                        />
+                        <div className="card-body">
+                            <div className="card-title">
+                                <h3 className="text-secondary text-center">title</h3>
+                            </div>
+                            <div className="card-subtitle my-4">
+                                <p className="text-muted text-center">
+                                    description
+                                </p>
+                            </div>
+                        </div>
+                    </div>
                 </SwiperSlide>
-                <SwiperSlide>
-                    <img src=""/>
-                </SwiperSlide>
-                <SwiperSlide>
-                    <img src=""/>
-                </SwiperSlide>
+
+                <div className="card mt-5">
+                    {/*<a className="stretched-link"*/}
+                    {/*   href={news.url}>*/}
+                    {/*</a>*/}
+                    <img
+                        src='https://placehold.co/600x400'
+                        alt="card_image"
+                        className="card-img-top"
+                    />
+                    <div className="card-body">
+                        <div className="card-title">
+                            <h3 className="text-secondary text-center">title</h3>
+                        </div>
+                        <div className="card-subtitle my-4">
+                            <p className="text-muted text-center">
+                                description
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div className="card mt-5">
+                    {/*<a className="stretched-link"*/}
+                    {/*   href={news.url}>*/}
+                    {/*</a>*/}
+                    <img
+                        src='https://placehold.co/600x400'
+                        alt="card_image"
+                        className="card-img-top"
+                    />
+                    <div className="card-body">
+                        <div className="card-title">
+                            <h3 className="text-secondary text-center">title</h3>
+                        </div>
+                        <div className="card-subtitle my-4">
+                            <p className="text-muted text-center">
+                                description
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                {/*<SwiperSlide>*/}
+                {/*    <img src=""/>*/}
+                {/*</SwiperSlide>*/}
+                {/*<SwiperSlide>*/}
+                {/*    <img src=""/>*/}
+                {/*</SwiperSlide>*/}
             </Swiper>
         </>
     );
