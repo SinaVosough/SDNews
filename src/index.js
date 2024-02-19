@@ -5,6 +5,7 @@ import ReactDOM from 'react-dom/client';
 // import './index.sass';
 // import reportWebVitals from './reportWebVitals';
 import {Route, BrowserRouter as Router, Routes} from 'react-router-dom';
+import './main.css'
 // import Login from './pages/login_page/LoginPage'
 // import ProductPage from "./pages/product_page/ProductPage";
 // import {Provider} from "react-redux";
@@ -14,16 +15,15 @@ import HomePage from "./pages/home_page/HomePage";
 import Navbar from "./pages/component/navbar";
 import Footer from "./pages/component/footer";
 import Slider from "./pages/home_page/components/slider";
+import DetailNews from "./pages/news_page/DetailNews";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
     <Router>
         <React.StrictMode>
-            <Navbar/>
             <Routes>
                 <Route exact path="/" element={<HomePage/>}/>
-                {/* <Route exact path="/login" element={<Login />} />
-            <Route exact path="/product/:slug" element={<ProductPage />} /> */}
+                <Route exact path="/detail/:detailnews" element={<DetailNews/>}/>
             </Routes>
             <Footer/>
         </React.StrictMode>

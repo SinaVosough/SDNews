@@ -9,27 +9,27 @@ function Navbar() {
                 </li>
                 <li className="nav-item nav-title">
                     <a href="" className="nav-link">
-                        Sport
+                        ورزشی
                     </a>
                 </li>
                 <li className="nav-item nav-title">
                     <a href="" className="nav-link">
-                        Economic
+                        اقتصاد
                     </a>
                 </li>
                 <li className="nav-item nav-title">
                     <a href="" className="nav-link">
-                        Political
+                        سیاسی
                     </a>
                 </li>
                 <li className="nav-item nav-title">
                     <a href="" className="nav-link">
-                        Art
+                        فرهنگ و هنر
                     </a>
                 </li>
                 <li className="nav-item nav-title">
                     <a href="" className="nav-link">
-                        Technology
+                        تگنولوژی
                     </a>
                 </li>
             </ul>

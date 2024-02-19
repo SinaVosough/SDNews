@@ -11,6 +11,9 @@ import NewsPic from "./components/NewsPic";
 import FirstRow from "./components/FirstRow";
 import {useState, useEffect} from "react";
 import axios from 'axios';
+import Navbar from "../component/navbar";
+import {Route} from "react-router-dom";
+import DetailNews from "../news_page/DetailNews";
 
 function HomePage() {
 
@@ -116,6 +119,7 @@ function HomePage() {
 
     return (
         <>
+            <Navbar/>
             <section className="container d-flex col-lg-12">
                 <FirstRow topNews={data.topNews}/>
             </section>

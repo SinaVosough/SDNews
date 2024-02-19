@@ -1,0 +1,8 @@
+@font-face {
+    font-family: 'MyFont';
+    src: url("/public/fontP/BYekan/BYekan+.ttf");
+}
+
+* {
+    font-family: MyFont, sans-serif;
+}

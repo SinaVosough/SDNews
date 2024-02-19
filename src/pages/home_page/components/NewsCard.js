@@ -1,11 +1,13 @@
+import DetailNews from "../../news_page/DetailNews";
+
 function NewsCard({news, i}) {
     // const {news} = props;
     // const {i} = props;
     return (
-        <div className="d-flex align-items-stretch col-4" key={i}>
+        <div className="d-flex w align-items-stretch col-lg-4" key={i}>
             <div className="card">
                 <a className="stretched-link"
-                   href={news.url}>
+                   href="/detail/:detailnews">
                 </a>
                 <img
                     src={news.urlToImage ? news.urlToImage : 'https://placehold.co/600x400'}

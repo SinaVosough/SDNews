@@ -2,6 +2,7 @@
 .allcontainer {
     border-radius: 15px;
     margin: 15px 25px;
+
 }
 
 .card {
@@ -9,7 +10,7 @@
 }
 
 .custom-card {
-
+    height: auto;
 }
 
 .general {

@@ -36,7 +36,6 @@ function NewsPic(props) {
 
     return (
         <>
-
             <Swiper
                 spaceBetween={30}
                 effect={'fade'}
@@ -50,8 +49,8 @@ function NewsPic(props) {
                 <SwiperSlide>
                     <section className="p-5 general allcontainer">
                         <div className="container-fluid">
-                            <h1 className="text-white text-center mb-5">General</h1>
-                            <div className="row ">
+                            <h1 className="text-white text-center mb-5">تازه ترین ها</h1>
+                            <div className="row">
                                 {generalNews.map((news, i) => {
                                     return (
                                         <NewsCard news={news} i={i}/>
@@ -65,7 +64,7 @@ function NewsPic(props) {
                 <SwiperSlide>
                     <section className="p-5 general allcontainer">
                         <div className="container-fluid">
-                            <h1 className="text-white text-center mb-5">General</h1>
+                            <h1 className="text-white text-center mb-5">تازه ترین ها</h1>
                             <div className="row ">
                                 {generalNews1.map((news, i) => {
                                     return (
@@ -80,7 +79,7 @@ function NewsPic(props) {
                 <SwiperSlide>
                     <section className="p-5 general allcontainer">
                         <div className="container-fluid">
-                            <h1 className="text-white text-center mb-5">General</h1>
+                            <h1 className="text-white text-center mb-5">تازه ترین ها</h1>
                             <div className="row ">
                                 {generalNews2.map((news, i) => {
                                     return (
@@ -106,7 +105,7 @@ function NewsPic(props) {
                 <SwiperSlide>
                     <section className="p-5 sport allcontainer">
                         <div className="container-fluid">
-                            <h1 className="text-white text-center mb-5">Sport</h1>
+                            <h1 className="text-white text-center mb-5">ورزشی</h1>
                             <div className="row">
                                 {sportNews.map((news, i) => {
                                     return (
@@ -121,7 +120,7 @@ function NewsPic(props) {
                 <SwiperSlide>
                     <section className="p-5 sport allcontainer">
                         <div className="container-fluid">
-                            <h1 className="text-white text-center mb-5">Sport</h1>
+                            <h1 className="text-white text-center mb-5">ورزشی</h1>
                             <div className="row">
                                 {sportNews1.map((news, i) => {
                                     return (
@@ -136,7 +135,7 @@ function NewsPic(props) {
                 <SwiperSlide>
                     <section className="p-5 sport allcontainer">
                         <div className="container-fluid">
-                            <h1 className="text-white text-center mb-5">Sport</h1>
+                            <h1 className="text-white text-center mb-5">ورزشی</h1>
                             <div className="row">
                                 {sportNews2.map((news, i) => {
                                     return (
@@ -151,7 +150,7 @@ function NewsPic(props) {
 
             <section className="p-5 economic allcontainer">
                 <div className="container-fluid">
-                    <h1 className="text-white text-center mb-5">Economic</h1>
+                    <h1 className="text-white text-center mb-5">اقتصاد</h1>
                     <div className="row">
                         {businessNews.map((news, i) => {
                                 return (
@@ -165,7 +164,7 @@ function NewsPic(props) {
 
             <section className="p-5 political allcontainer">
                 <div className="container-fluid">
-                    <h1 className="text-white text-center mb-5">Political</h1>
+                    <h1 className="text-white text-center mb-5">سیاسی</h1>
                     <div className="row">
                         {scienceNews.map((news, i) => {
                                 return (
@@ -179,7 +178,7 @@ function NewsPic(props) {
 
             <section className="p-5 art allcontainer">
                 <div className="container-fluid">
-                    <h1 className="text-white text-center mb-5">Art</h1>
+                    <h1 className="text-white text-center mb-5">فرهنگ و هنر</h1>
                     <div className="row">
                         {entertainmentNews.map((news, i) => {
                                 return (
@@ -193,7 +192,7 @@ function NewsPic(props) {
 
             <section className="p-5 technology allcontainer">
                 <div className="container-fluid">
-                    <h1 className="text-white text-center mb-5">Technology</h1>
+                    <h1 className="text-white text-center mb-5">تکنولوژی</h1>
                     <div className="row">
                         {technologyNews.map((news, i) => {
                             return (
